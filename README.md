@@ -29,8 +29,9 @@ Create a new list based on a list whose items are randomly selected.
 ## Usage
 
 ```
-Random_List(list: [1,2,3,4,6,7],iterations: 5).randExclude();
-Random_List(list: [1,2,3,4,5],iterations: 4).randInclude();
+List randExnclude=Random_List(list: [1,2,3,4,6,7],iterations: 5).randExclude();
+List randInclude=Random_List(list: [1,2,3,4,5],iterations: 4).randInclude();
+    
     
 ```
 
