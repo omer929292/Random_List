@@ -14,7 +14,7 @@ and the Flutter guide for
 
 ## Random_List
 
-Create a new list by randomly selecting items from an existing one.
+Create a new list by randomly selecting items from an existing list.
 
 
 
