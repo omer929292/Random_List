@@ -12,16 +12,18 @@ and the Flutter guide for
 -->
 
 
-## AppBar
+## Random_List
 
-Create an AppBar by setting height, color and child. This library helps to flexibly add items to the AppBar as you are free to fully control their position within the AppBar.
+Create a new list based on a list whose items are randomly selected.
 
 
 
 ## Features
 
-* Create an AppBar
-* Set AppBar's height
+//here
+
+* Create a randomized list
+* Set randomized list's 
 * Set AppBar's color
 * Add items to the AppBar by using child property. Control their position within the AppBar using Stack, Row, etc...
 
