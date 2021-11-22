@@ -45,7 +45,7 @@ Here are the accepted parameters :
 
 ## example
 
-<img src="assets/asset.png" width="250" height="450">
+<img src="assets/asset.png" width="350" height="450">
 
 
 
