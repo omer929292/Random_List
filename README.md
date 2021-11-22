@@ -20,33 +20,19 @@ Create a new list based on a list whose items are randomly selected.
 
 ## Features
 
-//here
-
-* Create a randomized list
-* Set randomized list's 
-* Set AppBar's color
-* Add items to the AppBar by using child property. Control their position within the AppBar using Stack, Row, etc...
-
+* Set an input list to randomize from
+* Set number of random selections
+* Use randInclude() method so input list's items can be randomly selected more than once
+* Use randExclude() method so input list's items can be randomly selected only once
 
 
 ## Usage
 
 ```
-SimpleAppBar(
-      color: Colors.purple,
-      height: 60,
-      child: Stack(
-        children: [
-          Align(alignment:Alignment(-0.8,0),child: Icon(Icons.monetization_on_outlined,size: 30,color: Colors.white,)),
-          Align(alignment:Alignment(0,0), child: Icon(Icons.favorite,size: 30,color: Colors.white,),),
-          Align(alignment:Alignment(0.8,0),child:Text("100",style:TextStyle(fontSize: 20,color: Colors.white))),
-        ],
-      ),
-    );
+Random_List(list: [1,2,3,4,6,7],iterations: 5).randExclude();
+Random_List(list: [1,2,3,4,5],iterations: 4).randInclude();
+    
 ```
-
-
-
 
 ## Parameters
 
@@ -54,10 +40,8 @@ Here are the accepted parameters :
 
 | Name  | Type | Default Value | Description | 
 | ------------- | ------------- | ------------- | ------------- | 
-| color  | Color | Colors.green | AppBar's color | 
-| height  | double | 50 | AppBar's height |
-| child (Optional)  | Widget | null | AppBar's child of items | 
-
+| list  | List | null | Input list given by the user to randomize from | 
+| iterations  | int | null | Number of random selections from input list; Output list's length. |
 
 
 ## example
